@@ -1,0 +1,17 @@
+{
+  "checks": [
+    {
+      "keyword": "促销",
+      "mode": "appears",
+      "name": "官网促销公告监控",
+      "type": "keyword",
+      "url": "file://demo/announce.html"
+    }
+  ],
+  "smtp": {
+    "recipients": [
+      "ops@example.com"
+    ],
+    "subject_prefix": ""
+  }
+}
